@@ -3,7 +3,7 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define([], function () {
-            return Object.assign = factory();
+            return root.Object.assign = factory(root.Object);
         });
 
     } else if (typeof exports !== 'undefined') {
