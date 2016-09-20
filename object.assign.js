@@ -18,8 +18,8 @@
     }
 
     return function (target) {
-        if (target == null) {
-            throw new TypeError('Cannot convert undefined or null to object');
+        if (target == null || target === undefined) {
+            target = {};
         }
 
         target = Object(target);
