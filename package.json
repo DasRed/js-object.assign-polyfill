@@ -1,0 +1,16 @@
+{
+  "name": "object.assign-polyfill",
+  "version": "1.0.3",
+  "description": "Polyfill for Object.assign if needed.",
+  "main": "object.assign.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DasRed/js-object.assign-polyfill.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DasRed/js-object.assign-polyfill/issues"
+  },
+  "homepage": "https://github.com/DasRed/js-object.assign-polyfill#readme"
+}
